@@ -38,5 +38,5 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t mfisya/todo:latest .
-          docker push mfisya/todo:latest
+          docker build -t fakhriazzr/todo_cicd:latest .
+          docker push fakhriazzr/todo_cicd:latest
